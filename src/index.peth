@@ -1,0 +1,9 @@
+peththa ? repeat : bath ? str : kawada ? "hello world" [log] {2}
+peththa ? rotateR : bath ? str : kawada ? "hello world" [log] {2}
+peththa ? rotateL : bath ? str : kawada ? "hello world" [log] {2}
+peththa ? keep : bath ? int : kawada ? 2134 [log]
+peththa ? keep : bath ? str : kawada ? "Hello World" [store]
+<reverse> [log]
+peththa ? keep : bath ? str : kawada ? "Hi There" [store]
+<reverse> [log]
+peththa ? keep : bath ? str : kawada ? (var1) [log]
