@@ -166,6 +166,15 @@ Comments are important for documenting your code or debugging. In PeththaScript 
 ### This is a comment
 ```
 
+### Run the Code
+To run the code you've just written, type the following command in the terminal while selecting the root folder in which the `peth_run.js` is located.
+
+```
+node peth_run [filename]
+```
+
+P.S - Exclude the file extention when running the `peth` file.
+
 ---
 
 <p align="center">That is all for the documentation. Hope you have fun with <b>PeththaScript</b>. Happy Coding!👨‍💻</p>
