@@ -34,9 +34,9 @@ function randomize(str=""){
     return str.split("").sort(() => {return Math.random() - 0.5}).join("");
 }
 
-let fileName = process.argv[2]+".pet"; // initialize the filename from the script call from the CLI
+let fileName = process.argv[2]+".peth"; // initialize the filename from the script call from the CLI
 let filePath = path.join(process.cwd(),"src/"+fileName); //initialize the filepath by merging the path of the current working directory and the provided file
-let varFileName = process.argv[2]+".vpet"; // initialize the variable filename from the script call from the CLI
+let varFileName = process.argv[2]+".vpeth"; // initialize the variable filename from the script call from the CLI
 let varFilePath = path.join(process.cwd(),"src/"+varFileName); //initialize the variable filepath by merging the path of the current working directory and the provided file
 
 let vars = {}; // initialize an object to store the variables
@@ -84,10 +84,10 @@ if(fs.existsSync(varFilePath)){ // if a file with the path in 'varFilePath' exis
     }
 }
 
-let lineStructure1 = /^\s*peththa \? (keep|repeat|reverse|jumble|rotateR|rotateL) : bath \? (str|int|bigInt) : kawada \? (\d+|".+"|\([a-zA-Z]\w+\)) \[(log|store)\]( {\d+})?$/; // 1st regex for valid line structure in .pth file
-let lineStructure2 = /^\s*<(keep|repeat|reverse|jumble|rotateR|rotateL)> \[(log|store)\]( {\d+})?$/; // 2nd regex for valid line structure in .pth file
-let emptyLine = /^(|\s+)$/; // regex for an empty line in .pth file
-let commentedLine = /^###.+$/; // regex for a commented line in .pth file
+let lineStructure1 = /^\s*peththa \? (keep|repeat|reverse|jumble|rotateR|rotateL) : bath \? (str|int|bigInt) : kawada \? (\d+|".+"|\([a-zA-Z]\w+\)) \[(log|store)\]( {\d+})?$/; // 1st regex for valid line structure in .peth file
+let lineStructure2 = /^\s*<(keep|repeat|reverse|jumble|rotateR|rotateL)> \[(log|store)\]( {\d+})?$/; // 2nd regex for valid line structure in .peth file
+let emptyLine = /^(|\s+)$/; // regex for an empty line in .peth file
+let commentedLine = /^###.+$/; // regex for a commented line in .peth file
 
 if(fs.existsSync(filePath) && varErrState === false){ // if the file at 'filePath' exists and there was no error in processing the variables...
     let fileContent = fs.readFileSync(filePath,{"encoding":"utf-8"}); // get the file content
