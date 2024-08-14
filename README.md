@@ -12,7 +12,7 @@ PeththaScript is just a meme project I've been working on :wink:. Hope you like 
 Download the complete folder as a zip file. Extract the zip file to anywhere on your device. And you're ready to go.
 
 ### 2. Creating Your First File
-Open the extracted folder in your preferred code editor. Create a new file with the extention `.pet`. It is recommended not to use spaces in the file name. However, using spaces is also fine if wanted. The format for the file name is give below.
+Open the extracted folder in your preferred code editor. Create a new file with the extention `.peth`. It is recommended not to use spaces in the file name. However, using spaces is also fine if wanted. The format for the file name is give below.
 
 ```
 [filename].peth
