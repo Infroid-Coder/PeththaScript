@@ -100,7 +100,7 @@ Output
 dlroW olleH
 erehT iH
 ```
-### Variables
+### 4. Variables
 If you've been wondering, "Wait! I can't write all the text I want in that one line", don't worry! I got you. Variables in PeththaScript, like any other language, is used to store values to be used later. However, in PeththaScript, variables are written in a seperate file. This file's name must be the filename as your code file. The only difference is that the extention need to be `.vpeth` instead of `.peth`. This file should also be created within the `src` folder.
 
 ```
@@ -149,8 +149,7 @@ The value of `var3` is:
 743283980944346248798489358793487343782
 ```
 
-### Accessing Variables in the Code
-
+### 5. Accessing Variables in the Code
 To access a variable you've just initialized/defined, you would start with the same syntax of a normal line except, the type or `bath` is set to the type of the variable and the value or `kawada` is set to the variable name surrounded by paranthesis.
 
 ```
@@ -159,14 +158,14 @@ peththa ? keep : bath ? str : kawada ? (var1) [log]
 
 Here, `var1` is the variable name and notice how the type is set `str` which is the type of the variable.
 
-### Comments
+### 6. Comments
 Comments are important for documenting your code or debugging. In PeththaScript you can write comments in the following format.
 
 ```
 ### This is a comment
 ```
 
-### Run the Code
+### 7. Run the Code
 To run the code you've just written, type the following command in the terminal while selecting the root folder in which the `peth_run.js` is located.
 
 ```
